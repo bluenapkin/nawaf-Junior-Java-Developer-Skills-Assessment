@@ -42,7 +42,9 @@ public class UserInfo {
         UserInfo student3 = new UserInfo("nouf" , 22 , "nouf@gmail.com" , true);
 
         student1.displayinfo();
+        System.out.println("----------------");
         student2.displayinfo();
+        System.out.println("----------------");
         student3.displayinfo();
 
     }
